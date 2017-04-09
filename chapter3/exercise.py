@@ -51,6 +51,16 @@ def main():
     print(f2e['chien'])
     # question 14
     print(e2f.keys())
+    # question 15
+    life = {'animals':{ 'cats':['Henri', 'Grumpy', 'Lucy'], 'octopi':{}, 'emus':{} }, 'plants':{}, 'others':{}}
+    # question 16, convert dic_key to list
+    print(life.keys())
+    print(list(life.keys()))
+    # question 17
+    print(life['animals'].keys())
+    print(list(life['animals'].keys()))
+    # question 18
+    print(life['animals']['cats'])
 
 if __name__ == '__main__':
     main()
